@@ -20,7 +20,10 @@ export default function ScrimbaProject(props){
                         <div className="dropdown-small-flex">
                             <p className="project-info dropdown-info">{props.info}</p>
                         </div>
-                        <a  href={props.link}><p className="project-info scrimba-link">live & code</p></a>
+                        <div className="card-btn-flex">
+                            <a className="card-btn project-btn" href={props.liveLink}><h4>View live</h4></a>
+                            <a className="card-btn card-btn-source project-btn" href={props.sourceLink}><h4>Source code</h4></a>
+                        </div>
                     </div>
                     <img className="dropdown-img" src={props.image} />
                 </div>

@@ -13,8 +13,8 @@ export default function Portfolio(props){
                     {props.info}  
                 </p>
                 <div className="card-btn-flex">
-                    <a className="card-btn" href="#"><h4>View live</h4></a>
-                    <a className="card-btn card-btn-source" href="#"><h4>Source code</h4></a>
+                    <a className="card-btn" href={props.liveLink}><h4>View live</h4></a>
+                    <a className="card-btn card-btn-source" href={props.sourceLink}><h4>Source code</h4></a>
                 </div>
             </div> 
                 <img className="project-img" src={props.siteImg} alt="website"/> 

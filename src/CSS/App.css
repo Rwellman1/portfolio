@@ -253,7 +253,7 @@ project-text-container{
   display: flex;
   justify-content: space-between;
   padding: 2em;
-  height: 200px;
+  height: 250px;
   overflow: hidden;
   transition: ease-in-out .25s;
 }
@@ -284,6 +284,9 @@ project-text-container{
   font-size: 1.5rem;
   font-weight: 700;
   color: var(--dark);
+}
+.dropdown-img{
+  height: 60%;
 }
 .icon-down{
   
@@ -513,6 +516,9 @@ CONTACT
   .about-logo{
       display: none;
   }
+  .project-btn{
+    font-size: .75rem;
+  }
 }
 @media  screen and (max-width: 800px) {
   .title3{
@@ -536,8 +542,15 @@ CONTACT
   }
   .project-open{
       flex-direction: column;
-      height: 400px;
+      height: auto;
   }
+  .project-btn{
+    margin-bottom: 2em;
+  }
+  .dropdown-img{
+    object-fit: contain;
+  }
+  
 }
 @media screen and (min-width: 800px) {
   .nav-container{
@@ -575,6 +588,7 @@ CONTACT
   .navbar a{
     text-decoration: none;
   }
+  
 }
   
 @media screen and (min-width: 750px) {

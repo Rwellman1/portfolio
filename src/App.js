@@ -48,48 +48,54 @@ function App() {
             languages = "React | SwiperJs | CSS | HTML"
             info = "I recreated the landing page for Gibson guitars, combining two of my greatest passions."
             siteImg = {gibsonSite}
-            gitLink = "this is the gitlink.com"
+            liveLink = "https://rwellman1.github.io/gibson-site/"
+            sourceLink = "https://github.com/Rwellman1/gibson-site"
           />
           <Portfolio 
             title = "Book search"
             languages = "React | CSS | HTML"
             info = "My first react porject, featuring the google books api I included a bookshelf which adds and removes selected books."
             siteImg = {bookFinder}
-            gitLink = "this is the gitlink.com"
+            liveLink = "https://rwellman1.github.io/book-search/"
+            sourceLink = "https://github.com/Rwellman1/book-search"
           />
           <Portfolio 
             title = "Portfolio website"
             languages = "React | CSS | HTML"
             info = "Using React, I designed and developed my portfolio from scratch. I designed the site using figma first."
             siteImg = {portfolioSite}
-            gitLink = "this is the gitlink.com"
+            liveLink = "https://rwellman1.github.io/Portfolio-Website/"
+            sourceLink = "https://github.com/Rwellman1/Portfolio-Website"
           />
           <Portfolio 
             title = "Colour Picker"
             languages = "JavaScript | CSS | HTML"
             info = "A colour picker app I made using vanilla Javascript. This features 'thecolorapi', using values from the dropdown menu and colour pallet to fetch a series of different colour schemes."
             siteImg = {colourPicker}
-            siteLink = 'https://codepen.io/ryan-wellman/pen/dyZdzBV'
-            gitLink = "this is the gitlink.com"
+            liveLink = 'https://codepen.io/ryan-wellman/pen/dyZdzBV'
+            sourceLink = "https://codepen.io/ryan-wellman/pen/dyZdzBV"
+            
           />
           <h3 className='scrimba-title'>Scrimba Projects</h3>
           <p className='scrimba-p'>A few of my favourite projects created on the Frontend Developer path course with Scrimba. 
             All projects have a link to the live project and source code.
           </p>
-          <p className='scrimba-p'><strong>When using Scrimba, click the 'RUN' button and then the small window on the bottom right. </strong></p>
+          <p className='scrimba-p'><strong>When using Scrimba, make sure 'app.js' is selected and click the 'RUN' button and then the small window on the bottom right. Only usable in desktops. </strong></p>
           <ScrimbaProject 
             projectTitle = "Tenzies"
             languages = "React | HTML | CSS"
             info = "A dice game I made using React with Scrimba. This features react confetti and nanoid"
             image = {tenzies}
-            link = "https://scrimba.com/scrim/coaf5495490a7ef418d33d62c"
+            liveLink = 'https://rwellman1.github.io/tenzies/'
+            sourceLink = "https://github.com/Rwellman1/tenzies"
           />
           <ScrimbaProject 
             projectTitle = "Meme generator"
             languages = "React | HTML | CSS"
             info = "A meme generator I made using javascript with Scrimba"
             image = {memeGenerator}
-            link = "https://scrimba.com/scrim/cd9K3mAq"
+            liveLink = 'https://rwellman1.github.io/meme-generator/'
+            sourceLink = "https://github.com/Rwellman1/meme-generator"
           />
         </div>
       </div>
