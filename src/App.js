@@ -45,8 +45,8 @@ function App() {
         <div className="project-list">
           <Portfolio 
             title = "Gibson guitars landing page"
-            languages = "React | SwiperJs | CSS | HTML"
-            info = "I recreated the landing page for Gibson guitars, combining two of my greatest passions."
+            languages = "React | SwiperJS | CSS | HTML"
+            info = "I recreated the landing page for Gibson guitars, features SwiperJS on smaller screen sizes."
             siteImg = {gibsonSite}
             liveLink = "https://rwellman1.github.io/gibson-site/"
             sourceLink = "https://github.com/Rwellman1/gibson-site"
@@ -54,7 +54,7 @@ function App() {
           <Portfolio 
             title = "Book search"
             languages = "React | CSS | HTML"
-            info = "My first react porject, featuring the google books api I included a bookshelf which adds and removes selected books."
+            info = "My first react project, featuring the google books api I included a bookshelf which adds and removes selected books."
             siteImg = {bookFinder}
             liveLink = "https://rwellman1.github.io/book-search/"
             sourceLink = "https://github.com/Rwellman1/book-search"
@@ -84,7 +84,7 @@ function App() {
           <ScrimbaProject 
             projectTitle = "Tenzies"
             languages = "React | HTML | CSS"
-            info = "A dice game I made using React with Scrimba. This features react confetti and nanoid"
+            info = "A dice game I made using React on my Scrimba course. This features react confetti and nanoid"
             image = {tenzies}
             liveLink = 'https://rwellman1.github.io/tenzies/'
             sourceLink = "https://github.com/Rwellman1/tenzies"
@@ -92,7 +92,7 @@ function App() {
           <ScrimbaProject 
             projectTitle = "Meme generator"
             languages = "React | HTML | CSS"
-            info = "A meme generator I made using javascript with Scrimba"
+            info = "A meme generator I made using React on my Scrimba course. This features a meme image API and react state to change text on the image"
             image = {memeGenerator}
             liveLink = 'https://rwellman1.github.io/meme-generator/'
             sourceLink = "https://github.com/Rwellman1/meme-generator"
@@ -130,9 +130,9 @@ function App() {
                     I have a strong passion for web development. Specializing in Javascript, React, CSS and HTML. 
                 </p>
                 <p className="about-me-p">
-                    Self-development and learning are two qualities I pride myself on. with the aid of online boot camp 
+                    Self-development and a keen eye for details are two qualities I pride myself on. With the aid of online boot camp 
                     'Scrimba', I have managed to successfully take the leap from Guitar Tutor to Web developer.
-                    During this time I have created a wide variety of projects on my own initiative. 
+                    
                 </p>
               </div>
             
