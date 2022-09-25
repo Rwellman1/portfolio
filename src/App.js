@@ -80,7 +80,7 @@ function App() {
           <p className='scrimba-p'>A few of my favourite projects created on the Frontend Developer path course with Scrimba. 
             All projects have a link to the live project and source code.
           </p>
-          <p className='scrimba-p'><strong>When using Scrimba, make sure 'app.js' is selected and click the 'RUN' button and then the small window on the bottom right. Only usable in desktops. </strong></p>
+          
           <ScrimbaProject 
             projectTitle = "Tenzies"
             languages = "React | HTML | CSS"

@@ -285,9 +285,7 @@ project-text-container{
   font-weight: 700;
   color: var(--dark);
 }
-.dropdown-img{
-  height: 60%;
-}
+
 .icon-down{
   
   transition: ease .5s;
@@ -542,14 +540,12 @@ CONTACT
   }
   .project-open{
       flex-direction: column;
-      height: auto;
+      max-height: 800px;
   }
   .project-btn{
     margin-bottom: 2em;
   }
-  .dropdown-img{
-    object-fit: fill;
-  }
+ 
   
 }
 @media screen and (min-width: 800px) {
@@ -610,6 +606,7 @@ CONTACT
   .color-strip{
     width: 500px;
   }
+  
 }
 @media screen and (max-width: 650px){
 
@@ -635,12 +632,8 @@ CONTACT
   .home-flex h2{
     font-size: 1.75rem;
   }
-  .dropdown-img{
-    max-height: 150px;
-  }
-  .project-open{
-    max-height: 350px;
-  }
+  
+  
 
   /**********
   PROJECT

@@ -25,7 +25,7 @@ export default function ScrimbaProject(props){
                             <a className="card-btn card-btn-source project-btn" href={props.sourceLink}><h4>Source code</h4></a>
                         </div>
                     </div>
-                    <img className="dropdown-img" src={props.image} />
+                    
                 </div>
          </div>
     )
