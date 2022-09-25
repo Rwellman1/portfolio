@@ -635,6 +635,9 @@ CONTACT
   .home-flex h2{
     font-size: 1.75rem;
   }
+  .dropdown-img{
+    max-height: 200px;
+  }
 
   /**********
   PROJECT
