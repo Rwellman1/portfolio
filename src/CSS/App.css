@@ -548,7 +548,7 @@ CONTACT
     margin-bottom: 2em;
   }
   .dropdown-img{
-    object-fit: contain;
+    object-fit: fill;
   }
   
 }
@@ -636,7 +636,7 @@ CONTACT
     font-size: 1.75rem;
   }
   .dropdown-img{
-    max-height: 200px;
+    max-height: 150px;
   }
   .project-open{
     max-height: 350px;
