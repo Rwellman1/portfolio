@@ -638,6 +638,9 @@ CONTACT
   .dropdown-img{
     max-height: 200px;
   }
+  .project-open{
+    max-height: 350px;
+  }
 
   /**********
   PROJECT
