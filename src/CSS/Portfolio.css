@@ -1,0 +1,209 @@
+
+.port-nav li{
+    color: var(--dark);
+}
+.port-nav li:hover{
+    color: var(--color1);
+}
+.portfolio-container{
+    padding: 0;
+    margin-bottom: 10em;
+    background-color: var(--color2);
+}
+
+.git-icon{
+    margin-top: 2em;
+    margin-left: 5em;
+    height: 4em;
+    cursor: pointer;
+}
+
+.project-container{
+    height: 50%;
+    width: 80%;
+    max-width: 1000px;
+    margin-left: 2em;
+    margin-bottom: 15em;
+    padding-bottom: 4em;
+    border-bottom: 2px var(--color1) solid;
+    display: flex;
+    color: var(--dark)
+}
+.project-img{
+   
+    width: 40%;
+    object-fit:contain;
+}
+.project-title{
+    font-size: 2rem;
+    border-bottom: 5px solid var(--color1);
+    width: 80%;
+}
+.project-sub{
+    font-size: 1.5rem;
+}
+.project-info{
+    font-size: 1rem;
+}
+project-text-container{
+    display: flex;
+}
+.project-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+    width: 100%;   
+}
+.card-btn-flex{
+    display: flex;
+    justify-content: flex-start;
+}
+.card-btn{
+    background: var(--color1);
+    padding: .5em;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    color: var(--dark);
+    font-weight: 700;
+    margin-right: 2em;
+    margin-top: 2em;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-link{
+    
+    color: var(--color1);
+    font-weight: 700;
+}
+.project-list h3{
+    font-size: 2rem;
+    color: var(--dark);
+}
+.card-btn-source{
+    background: var(--color2);
+}
+.dropdown-container{
+    display: block;
+    margin-bottom: 5em;
+    padding-bottom: 1em;
+}
+.dropdown-info{
+    padding: 0 1em;
+}
+.scrimba-title{
+    margin-bottom: 1em;
+    border-bottom: 5px solid var(--color1);
+    width: 80%;
+    max-width: 1000px;
+}
+.scrimba-p{
+    font-size: 1rem;
+    width: 50%;
+    margin-bottom: 4em;
+}
+.project-dropdown{
+    border-bottom: 5px var(--color1) solid;
+    align-self: flex-start;
+}
+.dropdown-title{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.dropdown-languages{
+    font-size: 1rem;
+}
+.project-open{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    height: 200px;
+    overflow: hidden;
+    transition: ease-in-out .25s;
+}
+.project-close{
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+    overflow: hidden;
+    transition: ease-in-out .25s;
+}
+.dropdown-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.dropdown-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--dark);
+}
+.icon-down{
+    
+    transition: ease .5s;
+}
+.icon-up{
+    transform: rotate(180deg);
+    transition: ease .5s;
+}
+.dropdown-small-flex{
+    display: flex;
+}
+.material-symbols-outlined {
+  font-size: 3rem;
+  color: var(--dark);
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48;
+}
+.scrimba-text-container a{
+    text-decoration: none;
+    color: var(--dark);
+}
+.scrimba-link{
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: var(--color2);
+    width: 150px;
+    text-align: center;
+    padding: .5em 0;
+}
+
+@media screen and (max-width: 900px) {
+    .project-container{
+        width: 80%;
+        flex-direction: column;
+        
+    }
+    .project-img{
+        margin-top: 5em;
+        width: 100%;
+    }
+    .project-close{
+        flex-direction: column;
+    }
+    .project-open{
+        flex-direction: column;
+        height: 400px;
+    }
+}

@@ -1,0 +1,33 @@
+:root{
+  --dark: #2A3643;
+  --color1: #FFBF69;
+  --color2: #2EC4B6;
+}
+
+body{
+  margin: 0 auto;
+  font-size: 10px;
+}
+
+.page-container{
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 10em;
+  height: 100%;
+  
+  margin: 0 auto;
+}
+html{
+  scroll-behavior:smooth;
+}
+
+.textarea:focus, input:focus{
+  outline: none;
+}
+
+
+@media screen and (max-width: 900px) {
+  body{
+    font-size: 7px;
+  }
+}
+

@@ -1,0 +1,49 @@
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    width: 70%;
+}
+.contact-input{
+    font-size: 2rem;
+    color: var(--dark);
+    border: none;
+    border-bottom: 2px solid var(--color2);
+    padding: .5em .5em 0 .5em;
+    margin-bottom: 2em;
+}
+.contact-message{
+    height: 300px;
+}
+.contact-container p{
+    font-size: 1.5rem;
+}
+
+.contact-form-button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: .5em 1em;
+    
+    width: 200px;
+    border: none;
+    border-radius:15px;
+    background: var(--color2);
+    cursor: pointer;
+}
+.download-link{
+    cursor: pointer;
+    color: var(--color2);
+    font-weight: 700;
+}
+.contact-extra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:5em;
+    padding-bottom: 10em;
+}
+.contact-title{
+    border-color:var(--color2) ;
+}

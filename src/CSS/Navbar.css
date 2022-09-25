@@ -1,0 +1,72 @@
+/******************
+      NAV BAR
+******************/
+.navbar{
+  display: none;
+}
+.nav-title{
+  font-size: 4rem;
+  border-bottom: 10px solid var(--color1);
+  color: var(--dark);
+  white-space: nowrap;
+}
+.title2{
+  border-bottom: 10px solid var(--color1);
+  color: #ffffff;
+}
+.title3{
+  color: white;
+  border-bottom: 10px solid var(--dark);
+}
+@media  screen and (max-width: 800px) {
+  .title3{
+    padding-top: 1em;
+  }
+}
+@media screen and (min-width: 800px) {
+  .nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    
+  } 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    height: 2em;
+    
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar li{
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 2em;
+    letter-spacing: 1px;
+    list-style-type: none;
+    cursor: pointer; 
+  }
+
+  .navbar li:hover{
+    transition:all .5s ease-in-out;
+    color: var(--color2);
+  }
+  .navbar a{
+    text-decoration: none;
+  }
+}
+  @media screen and (max-width: 1055px) {
+    .nav-title{
+      font-size: 2.5rem;
+    }
+    .navbar li{
+      font-size: 1.3rem;
+    }
+  }
+
+ 
