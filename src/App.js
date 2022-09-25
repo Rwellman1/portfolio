@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './CSS/App.css';
 import linkedIn from "./components/images/linkedin-icon.png"
 import reactLogo from "./components/images/react-logo.png"
@@ -12,7 +12,7 @@ import gibsonSite from "./components/images/gibson-site.png"
 import Portfolio from './components/Portfolio';
 
 import ScrimbaProject from './components/ScrimbaProjects';
-import blackjack from "./components/images/blackjack-min.jpg"
+
 import tenzies from "./components/images/tenzies-min.jpg"
 import memeGenerator from "./components/images/meme_generator-min.jpg"
 function App() {

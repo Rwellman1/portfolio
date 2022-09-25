@@ -545,7 +545,9 @@ CONTACT
   .project-btn{
     margin-bottom: 2em;
   }
- 
+  .dropdown-img{
+    object-fit: fill;
+  } 
   
 }
 @media screen and (min-width: 800px) {
@@ -606,7 +608,6 @@ CONTACT
   .color-strip{
     width: 500px;
   }
-  
 }
 @media screen and (max-width: 650px){
 
