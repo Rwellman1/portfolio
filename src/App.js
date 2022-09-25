@@ -1,11 +1,5 @@
 import logo from './logo.svg';
 import './CSS/App.css';
-import "./CSS/Navbar.css"
-import "./CSS/Home.css"
-import "./CSS/WhatIDo.css"
-import "./CSS/Portfolio.css"
-import "./CSS/AboutMe.css"
-import "./CSS/Contact.css"
 import linkedIn from "./components/images/linkedin-icon.png"
 import reactLogo from "./components/images/react-logo.png"
 import jsLogo from "./components/images/js-logo.png"
@@ -24,7 +18,7 @@ import memeGenerator from "./components/images/meme_generator-min.jpg"
 function App() {
   return (
     <div className="App">  
-      <section className="page-container ">  
+      <div className="page-container ">  
         <div className="home-flex">
             <h1>Ryan Wellman</h1>
             <div className="color-strip"></div>
@@ -32,14 +26,12 @@ function App() {
             <div className="home-button">
               <a href="#portfolio"><h3  className="home-btn1">Portfolio</h3></a>
               <a href="#contact"><h3  className="home-btn2">Contact</h3></a>
-              <a href="https://www.linkedin.com/in/ryan-wellman-04952b227/"> 
-                <img className='linkedin' src={linkedIn} alt="linkedin logo"/>
-              </a>
             </div>
+            
         </div>
-      </section>
+      </div>
 
-      <section id="portfolio" className="page-container port-container">
+      <div id="portfolio" className="page-container port-container">
         <div className="nav-container ">
           <h2 className="nav-title">Portfolio</h2>
           <nav className="navbar port-nav">
@@ -84,6 +76,7 @@ function App() {
           <p className='scrimba-p'>A few of my favourite projects created on the Frontend Developer path course with Scrimba. 
             All projects have a link to the live project and source code.
           </p>
+          <p className='scrimba-p'><strong>When using Scrimba, click the 'RUN' button and then the small window on the bottom right. </strong></p>
           <ScrimbaProject 
             projectTitle = "Tenzies"
             languages = "React | HTML | CSS"
@@ -99,9 +92,9 @@ function App() {
             link = "https://scrimba.com/scrim/cd9K3mAq"
           />
         </div>
-      </section>
+      </div>
 
-      <section id="about" className="page-container about-me-container">
+      <div id="about" className="page-container about-me-container">
         <div className="nav-container ">
           <h2 className="nav-title title3">About Me</h2>
           <nav className="navbar ">
@@ -140,9 +133,9 @@ function App() {
             </div>
           </div>    
         </div>
-      </section>
+      </div>
 
-      <section id="contact" className="page-container contact-container">
+      <div id="contact" className="page-container contact-container">
         <div className="nav-container ">
           <h2 className="nav-title contact-title">Contact</h2>
           <nav className="navbar">
@@ -153,7 +146,7 @@ function App() {
             </ul>
           </nav>
         </div>
-        <div>
+        <div className='contact-text'>
           <p>Please get in touch at: <a href="mailto:rwellman.dev@gmail.com" className="download-link">rwellman.dev@gmail.com</a></p>
           <p>Download CV <a className="download-link" href="src\components\Ryan Wellman-Frontend Developer.pdf" download>here</a></p>
         </div>
@@ -162,7 +155,7 @@ function App() {
               <img src={linkedIn} alt="linkedin logo"/>
           </a>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

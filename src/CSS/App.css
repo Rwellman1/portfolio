@@ -11,10 +11,11 @@ body{
 
 .page-container{
   font-family: 'Montserrat', sans-serif;
-  padding: 0 10em;
-  height: 100%;
   
-  margin: 0 auto;
+  width: auto;
+  margin: auto 0;
+  padding: 0 5em;
+  overflow: hidden;
 }
 html{
   scroll-behavior:smooth;
@@ -24,10 +25,647 @@ html{
   outline: none;
 }
 
+/******************
+      NAV BAR
+******************/
+.navbar{
+  display: none;
+}
+.nav-title{
+  font-size: 4rem;
+  border-bottom: 10px solid var(--color1);
+  color: var(--dark);
+  white-space: nowrap;
+}
+.title2{
+  border-bottom: 10px solid var(--color1);
+  color: #ffffff;
+}
+.title3{
+  color: white;
+  border-bottom: 10px solid var(--dark);
+}
+
+ 
+
+/*************
+  HOME PAGE
+*************/
+  
+.home-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+.home-img{
+  max-width: 35%;
+  margin-top: 5em;
+  height: 50%;
+}
+
+.home-flex h1{
+  font-size: 4rem;
+  color: #2A3643;
+  margin-bottom: .8em;
+  letter-spacing: 2px;
+}
+.home-flex h2{
+  font-size: 2.5rem;
+  color: #2A3643;
+  margin-top: .5em;
+}
+
+.home-text{
+  width: 30%;
+  height: 100%;
+}
+
+.color-strip{
+  height: 1.5em;
+  width: 100%;
+  max-width: 500px;
+  background: var(--color2);
+}
+
+.home-button{
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 4em;
+  margin-bottom: 3em;
+  align-items: center;
+  justify-content: space-between;
+}
+.linkedin{
+    height: 65px;
+    margin-left: 2.5em;
+    margin-top: 7px;
+}
+.home-button a{
+  text-decoration: none;
+}
+.home-button h3{
+  text-decoration: none;
+  font-size: 1.75rem;
+}
+.home-btn1, .home-btn2{
+  cursor: pointer;
+  padding: .5em;
+  border-radius: 15px;
+}
+.home-btn1{
+  margin-right: 2em;
+  background: var(--color1);
+  color: var(--dark);
+}
+.home-btn2{
+  background: var(--color2);
+  color: var(--dark);
+}
+
+/*****************
+PROJECT
+******************/
+.port-nav li{
+  color: var(--dark);
+}
+.port-nav li:hover{
+  color: var(--color1);
+}
+.portfolio-container{
+  padding: 0;
+  margin-bottom: 10em;
+  background-color: var(--color2);
+  width: 100%;
+}
+
+.git-icon{
+  margin-top: 2em;
+  margin-left: 5em;
+  height: 4em;
+  cursor: pointer;
+}
+
+.project-container{
+  height: 50%;
+  width: 80%;
+  max-width: 1000px;
+  margin-left: 2em;
+  margin-bottom: 15em;
+  padding-bottom: 4em;
+  border-bottom: 2px var(--color1) solid;
+  display: flex;
+  color: var(--dark)
+}
+.project-img{
+ 
+  width: 40%;
+  object-fit:contain;
+}
+.project-title{
+  font-size: 2rem;
+  border-bottom: 5px solid var(--color1);
+  width: 80%;
+}
+.project-sub{
+  font-size: 1.5rem;
+}
+.project-info{
+  font-size: 1rem;
+}
+project-text-container{
+  display: flex;
+}
+.project-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10em;
+  width: 100%;   
+}
+.card-btn-flex{
+  display: flex;
+  justify-content: flex-start;
+}
+.card-btn{
+  background: var(--color1);
+  padding: .5em;
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: var(--dark);
+  font-weight: 700;
+  margin-right: 2em;
+  margin-top: 2em;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project-link{
+  
+  color: var(--color1);
+  font-weight: 700;
+}
+.project-list h3{
+  font-size: 2rem;
+  color: var(--dark);
+}
+.card-btn-source{
+  background: var(--color2);
+}
+.dropdown-container{
+  display: block;
+  margin-bottom: 5em;
+  padding-bottom: 1em;
+}
+.dropdown-info{
+  padding: 0 1em;
+}
+.scrimba-title{
+  margin-bottom: 1em;
+  border-bottom: 5px solid var(--color1);
+  width: 80%;
+  max-width: 1000px;
+}
+.scrimba-p{
+  font-size: 1rem;
+  width: 50%;
+  margin-bottom: 4em;
+}
+.project-dropdown{
+  border-bottom: 5px var(--color1) solid;
+  align-self: flex-start;
+}
+.dropdown-title{
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropdown-languages{
+  font-size: 1rem;
+}
+.project-open{
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  height: 200px;
+  overflow: hidden;
+  transition: ease-in-out .25s;
+}
+.project-close{
+  display: flex;
+  justify-content: space-between;
+  height: 0;
+  overflow: hidden;
+  transition: ease-in-out .25s;
+}
+.dropdown-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.dropdown-btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+.icon-down{
+  
+  transition: ease .5s;
+}
+.icon-up{
+  transform: rotate(180deg);
+  transition: ease .5s;
+}
+.dropdown-small-flex{
+  display: flex;
+}
+.material-symbols-outlined {
+font-size: 3rem;
+color: var(--dark);
+font-variation-settings:
+'FILL' 1,
+'wght' 700,
+'GRAD' 0,
+'opsz' 48;
+}
+.scrimba-text-container a{
+  text-decoration: none;
+  color: var(--dark);
+}
+.scrimba-link{
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  background-color: var(--color2);
+  width: 150px;
+  text-align: center;
+  padding: .5em 0;
+}
+
+/*****************
+ABOUT ME
+*****************/
+
+.about-me-container{
+  background: var(--color1);
+  height: 100%;
+  
+}
+.about-me-text-container{
+  padding-bottom: 15em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-me-text{
+  color:var(--dark);
+}
+
+.about-me-text h3{
+  font-size: 3rem;
+  margin-bottom: 2em;
+}
+.about-me-quote{
+  margin-top: 2em;
+  font-size: 1.5rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 2px;
+  width: 80%;
+}
+.about-me-quote-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.about-me-p{
+  font-size: 1.5rem;
+  padding: 0 5em;
+  text-align: left;
+}
+.about-me-nav li:hover{
+  color:#ffffff;
+}
+.about-me-flex{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo-flex{
+  display: flex;
+}
+.about-me-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-me-list li{
+  font-size: 1.5rem;
+  margin-right: 2em;
+  margin-bottom: 5em;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+}
+.about-me-list img{
+  height: 80px;
+  margin-top: 2em;
+}
+
+/*******************
+CONTACT
+*******************/
+.contact-form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 5em;
+  width: 70%;
+}
+.contact-input{
+  font-size: 2rem;
+  color: var(--dark);
+  border: none;
+  border-bottom: 2px solid var(--color2);
+  padding: .5em .5em 0 .5em;
+  margin-bottom: 2em;
+}
+.contact-message{
+  height: 300px;
+}
+.contact-container p{
+  font-size: 1.5rem;
+}
+
+.contact-form-button{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: .5em 1em;
+  
+  width: 200px;
+  border: none;
+  border-radius:15px;
+  background: var(--color2);
+  cursor: pointer;
+}
+.download-link{
+  cursor: pointer;
+  color: var(--color2);
+  font-weight: 700;
+}
+.contact-extra{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:5em;
+  padding-bottom: 10em;
+}
+.contact-title{
+  border-color:var(--color2) ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1055px) {
+  .nav-title{
+    font-size: 2.5rem;
+  }
+  .navbar li{
+    font-size: 1.3rem;
+  }
+}
+
+
 
 @media screen and (max-width: 900px) {
   body{
     font-size: 7px;
+  }
+
+  .about-me-flex{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center; 
+  }
+  .about-me-text-container p{
+    align-self: center;
+
+    margin: 0 auto
+  }
+  .about-me-p{
+      width: 50%;
+  }
+  .about-me-list{
+      flex-direction: column;
+  }
+  .about-me-list li{
+    margin-bottom: 1em;
+  }
+  .about-logo{
+      display: none;
+  }
+}
+@media  screen and (max-width: 800px) {
+  .title3{
+    padding-top: 1em;
+  }
+
+  /*********
+  PROJECT
+  *********/
+  .project-container{
+    width: 80%;
+    flex-direction: column;
+      
+  }
+  .project-img{
+      margin-top: 5em;
+      width: 100%;
+  }
+  .project-close{
+      flex-direction: column;
+  }
+  .project-open{
+      flex-direction: column;
+      height: 400px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .nav-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: baseline;
+    
+  } 
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    align-items: center;
+    height: 2em;
+    
+  }
+  .navbar ul{
+    display: flex;
+  }
+  .navbar li{
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 2em;
+    letter-spacing: 1px;
+    list-style-type: none;
+    cursor: pointer; 
+  }
+
+  .navbar li:hover{
+    transition:all .5s ease-in-out;
+    color: var(--color2);
+  }
+  .navbar a{
+    text-decoration: none;
+  }
+}
+  
+@media screen and (min-width: 750px) {
+  
+  /***********
+    HOME
+  ************/
+
+  .home-flex h1{
+    font-size: 4rem;
+  }
+  .home-flex h2{
+    font-size: 2rem;
+  }
+  .home-btn1,.home-btn2{
+    padding:.5em;
+    font-size: 1rem;
+  }
+  .color-strip{
+    width: 500px;
+  }
+}
+@media screen and (max-width: 650px){
+
+  body{
+    font-size: 4px; 
+    box-sizing: border-box; 
+    padding: 0em;
+    margin: auto 0;
+  }
+  
+  .nav-container{
+    max-width: 70%;
+  }
+  .home-button h3{
+    padding: .5em;
+    margin-right: 1em;
+    font-size: 1.25rem;
+  }
+  
+  .home-flex h1{
+    font-size: 2rem;
+  }
+  .home-flex h2{
+    font-size: 1.75rem;
+  }
+
+  /**********
+  PROJECT
+  **********/
+  .project-text-container h3{
+    font-size: 1.5rem;
+  }
+  .project-sub{
+    font-size: 1rem;
+  }
+  .project-info{
+    font-size: .85rem;
+  }
+  .card-btn-flex h4{
+    font-size: .75rem;
+  }
+  .dropdown-btn{
+    font-size: 1rem;
+  }
+  .scrimba-p{
+    width: 70%;
+    font-size: .75rem;
+  }
+  .material-symbols-outlined{
+    font-size: 1.5rem;
+  }
+
+  /****************
+  ABOUT ME
+  ******************/
+  .about-me-text-container h3{
+    font-size: 2rem;
+  }
+  .about-me-quote{
+    font-size: 1rem;
+  }
+  .about-me-list li{
+    font-size: 1rem;
+  }
+  .about-me-text-container p{
+    font-size: 1rem;
+  }
+  .contact-text p{
+    font-size: 1rem;
+    margin-bottom: 2em;
   }
 }
 

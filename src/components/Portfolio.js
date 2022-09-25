@@ -1,33 +1,7 @@
 import React from "react"
-import colourPicker from "./images/colourpicker.png"
 import site1 from "./images/website.jpg"
-import site2 from "./images/website2.jpg"
-import portfolioSite from "./images/portfolio-site.png"
-import bookshelf from "./images/book-finder.png"
-import gibsonSite from "./images/gibson-site.png"
-import ScrimbaProject from "./ScrimbaProjects"
 export default function Portfolio(props){
 
-    
-    //PORTFOLIO PROJECTS
-    
-    
-    const project2 = {
-        
-    }
-    const project3 = {
-        
-    } 
-    const project4 = {
-        
-    }
-    const project5 = {
-        title : "Scrimba projects",
-        languages : "Javascript | SASS | HTML",
-        info : `List of projects I completed whilst doing the Frontend Developer path on Scrimba `,
-        siteImg : site1,
-        gitLink : "this is the gitlink.com"
-    }
     
     return(
 
