@@ -127,13 +127,18 @@ function App() {
                 </ul>
                 <h3>My story</h3>
                 <p className="about-me-p">
-                    I have a strong passion for web development. Specializing in Javascript, React, CSS and HTML. 
+                    I have a strong passion for web development. Specializing in React,Javascript, CSS and HTML. 
                 </p>
                 <p className="about-me-p">
-                    Self-development and a keen eye for details are two qualities I pride myself on. With the aid of online boot camp 
-                    'Scrimba', I have managed to successfully take the leap from Guitar Tutor to Web developer.
-                    
+                   I am a self taught web developer from the UK, Specializing in Javascript, React, CSS and HTML.
                 </p>
+                <p className="about-me-p">
+                  Self-development and learning are two qualities I pride myself on. with the aid of online boot camp 
+                  'Scrimba', I have managed to successfully take the leap from Guitar Tutor to Web developer. 
+                </p>
+                <p className="about-me-p">
+                  I take a great deal of enjoyment in learning new languages and implementing newly found knowledge to solve problems creatively.
+                </p>    
               </div>
             
             </div>
