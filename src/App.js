@@ -10,7 +10,7 @@ import portfolioSite from "./components/images/portfolio-site.png"
 import bookFinder from "./components/images/book-finder.png"
 import gibsonSite from "./components/images/gibson-site.png"
 import Portfolio from './components/Portfolio';
-
+import CV from "./components/Ryan-Wellman-CV.pdf"
 import ScrimbaProject from './components/ScrimbaProjects';
 
 import tenzies from "./components/images/tenzies-min.jpg"
@@ -126,9 +126,7 @@ function App() {
                   <li>HTML <img className='about-logo' src={htmlLogo}/></li>
                 </ul>
                 <h3>My story</h3>
-                <p className="about-me-p">
-                    I have a strong passion for web development. Specializing in React,Javascript, CSS and HTML. 
-                </p>
+                
                 <p className="about-me-p">
                    I am a self taught web developer from the UK, Specializing in Javascript, React, CSS and HTML.
                 </p>
@@ -159,7 +157,7 @@ function App() {
         </div>
         <div className='contact-text'>
           <p>Please get in touch at: <a href="mailto:rwellman.dev@gmail.com" className="download-link">rwellman.dev@gmail.com</a></p>
-          <p>Download CV <a className="download-link" href="src\components\Ryan Wellman-Frontend Developer.pdf" download>here</a></p>
+          <p>Download CV <a className="download-link" href={CV} download="Ryan Wellman-Frontend Developer.pdf">here</a></p>
         </div>
         <div className="contact-extra">
           <a href="https://www.linkedin.com/in/ryan-wellman-04952b227/"> 
